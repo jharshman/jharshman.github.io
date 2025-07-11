@@ -17,7 +17,7 @@ plugins:
 # Author settings
 author:
   name: "Josh Harshman"
-  avatar: "/assets/images/avatar.png" # or your gopher avatar
+  avatar: "/assets/images/avatar.png"
   bio: "Principal Architect & Engineering Leader • Cloud Infrastructure Specialist • Go Developer"
   links:
     - label: "LinkedIn"
@@ -28,7 +28,7 @@ author:
       url: "https://github.com/jharshman"
 
 # Appearance
-minimal_mistakes_skin: "sunrise" # or "air", "contrast", "default", etc.
+minimal_mistakes_skin: "sunrise"
 search: true
 breadcrumbs: true
 permalink: /:categories/:title/
