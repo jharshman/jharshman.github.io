@@ -4,7 +4,7 @@ url: "https://jharshman.github.io"
 baseurl: "" # Keep empty for user/organization site
 repository: jharshman/jharshman.github.io
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
