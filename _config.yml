@@ -4,7 +4,7 @@ url: "https://jharshman.github.io"
 baseurl: "" # Keep empty for user/organization site
 repository: jharshman/jharshman.github.io
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -12,6 +12,7 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Author settings
 author:
