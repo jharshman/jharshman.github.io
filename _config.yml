@@ -1,1 +1,68 @@
-theme: minima
+title: "Josh Harshman"
+description: "Technical writings on Go, infrastructure, systems, and software design."
+url: "https://jharshman.github.io"
+baseurl: "" # Keep empty for user/organization site
+repository: jharshman/jharshman.github.io
+
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+# Author settings
+author:
+  name: "Josh Harshman"
+  avatar: "/assets/images/avatar.png" # or your gopher avatar
+  bio: "Principal Architect & Engineering Leader • Cloud Infrastructure Specialist • Go Developer"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/joshuaharshman"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/jharshman"
+
+# Appearance
+minimal_mistakes_skin: "sunrise" # or "air", "contrast", "default", etc.
+search: true
+breadcrumbs: true
+permalink: /:categories/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: false
+      toc: true
+      toc_sticky: true
+      classes: wide
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
