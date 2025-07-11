@@ -11,24 +11,6 @@ My background is in platform engineering and distributed systems. I write a lot 
 
 ---
 
-## What I work with
-
-- **Languages:** Go, C, Bash
-- **Infrastructure:** Kubernetes, Terraform, Docker, Ansible
-- **Cloud:** GCP, AWS
-- **Monitoring & Observability:** Prometheus, OpenTelemetry, Nagios, Munin
-
----
-
-## What I like
-
-- Well-designed systems and clean interfaces
-- Automation over repetition
-- Keeping the pager quiet
-- Tools that stay out of the way
-
----
-
 ## Elsewhere
 
 - [GitHub](https://github.com/joshuaharshman)
